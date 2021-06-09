@@ -16,7 +16,7 @@ layout: baseLayout
         {{content}}
         <div id='gallery'>
         {% for image in site.static_files %}
-            {% if image.path contains 'images/hxh-cards/cards' %}
+            {% if image.path contains 'images/chungking_express/screenshots' %}
                 <a href="{{ site.baseurl }}{{ image.path }}">
                 <img class='thumbnail' src="{{ site.baseurl }}{{ image.path }}" alt="image" />
                 </a>    

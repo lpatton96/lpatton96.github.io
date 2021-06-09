@@ -1,9 +1,9 @@
 ---
-layout: hxh_card_gallery
+layout: chungking_image_gallery
 author: lisa
-title: The Greed Island cards (Hunter X Hunter)
-source: assets/images/hxh-cards/cards
-image: assets/images/hxh-cards/cover.jpg
+title: Chungking Express
+source: assets/images/chungking_express
+image: assets/images/chungking_express/cover.png
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tortor nisi. Curabitur elementum tellus quis tristique congue. 
 

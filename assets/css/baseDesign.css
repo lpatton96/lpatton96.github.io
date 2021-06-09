@@ -6,7 +6,7 @@
 	box-shadow: whitesmoke 0pt 1pt;
 }
 .navbar_item{
-	font-size: 3rem;
+	font-size: 2rem;
 	padding: 5px;
 }
 /* Link Formatting */
@@ -24,6 +24,7 @@ a:hover {color:gray;}
 	flex-direction: column;
 	justify-content: center;
 	margin: auto;
+	margin-top: 2%;
 	margin-left: 20%;
 	margin-right: 20%;
 }
