@@ -10,7 +10,8 @@ title: Lisa page
 				<img src="{{ post.image }}">
 			</div>
 			<div class='post_text'>
-					<h5>{{ post.title }}</h5>
+					<h4>{{ post.title }}</h4>
+					<h6>{{ post.date | date_to_string }}</h6>
 					{{ post.excerpt }}
 			</div>
 		</div>
