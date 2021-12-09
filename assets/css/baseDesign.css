@@ -1,3 +1,7 @@
+html {
+	font-size: 62.5%; 
+}
+
 /*NAVBAR*/
 .navbar{
 	display: flex;
@@ -6,8 +10,8 @@
 	box-shadow: whitesmoke 0pt 1pt;
 }
 .navbar_item{
-	font-size: 2rem;
-	padding: 5px;
+	font-size: 1.5em;
+	padding: 0.2em;
 }
 /* Link Formatting */
 a { 
@@ -23,6 +27,8 @@ a:hover {color:gray;}
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	line-height: 1.6;
+	font-weight: 400;
 	margin: auto;
 	margin-top: 2%;
 	margin-left: 20%;
@@ -36,12 +42,12 @@ a:hover {color:gray;}
 	align-items: center;
 	margin: auto;
 	padding: 0.5rem;
-	box-shadow: whitesmoke 0pt 2pt;
+	/*box-shadow: whitesmoke 0pt 2pt;*/
 }
 .post_image img{
 	max-width: 20rem;
 	max-height: 20rem;
-	padding-right: 1rem;
+	padding-right: 4rem;
 }
 .post_text{
 	display: inline-block;

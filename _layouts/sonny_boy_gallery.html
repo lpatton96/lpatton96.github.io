@@ -1,0 +1,29 @@
+---
+layout: baseLayout
+---
+<head>
+    <script src="/assets/js_files/lightgallery.min.js"></script>
+    <script src='/assets/js_files/lg-thumbnail.min.js'></script>
+    <link rel='stylesheet' href="/assets/css/lightgallery.css"></link>
+</head>
+
+<!-- https://github.com/dimsemenov/PhotoSwipe -->
+
+<div class="main_body">
+    <div class='blog'>
+        <h2>{{ page.title }}</h2>
+        {{ page.date | date_to_string }} - {{ page.author}}
+        {{content}}
+        <div id='gallery'>
+        {% for image in site.static_files %}
+            {% if image.path contains 'images/sonny_boy/screenshots' %}
+                <a href="{{ site.baseurl }}{{ image.path }}">
+                <img class='thumbnail' src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                </a>    
+            {% endif %}
+        {% endfor %}
+        </div>
+
+<footer>
+    <script src="/assets/js_files/gallery.js"></script>
+</footer>
