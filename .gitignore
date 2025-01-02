@@ -1,0 +1,19 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+# Ignore Jekyll build output
+_site/
+
+# Ignore Jekyll metadata and cache
+.jekyll-metadata
+.sass-cache/
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore vendor and node_modules (if using any dependencies)
+/vendor/
+/node_modules/

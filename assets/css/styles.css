@@ -1,0 +1,25 @@
+body{
+  font-family: 'Helvetica' , 'sans-serif';
+  margin-left:  5%;
+  margin-right: 5%;
+  font-size: medium;
+}
+
+div.nav-bar {
+    display: flex;                /* Use Flexbox to layout the items */
+    justify-content: center;      /* Center the items horizontally */
+    align-items: center;          /* Center the items vertically (if the navbar has height) */
+    padding: 10px 0;              /* Optional: Add padding to give the navbar some height */
+  }
+  
+  .nav-bar a {
+    color: #333;                  /* Set link text color */
+    text-decoration: none;        /* Remove underline */
+    margin: 0 20px;               /* Space between the links */
+    font-size: 18px;              /* Set font size */
+  }
+  
+  .nav-bar a:hover {
+    text-decoration: underline;   /* Add underline on hover */
+  }
+  
